@@ -6,6 +6,7 @@
 *.user
 *.userosscache
 *.sln.docstates
+*publish.xml
 
 # User-specific files (MonoDevelop/Xamarin Studio)
 *.userprefs
@@ -162,7 +163,7 @@ DocProject/Help/html
 
 # Publish Web Output
 *.azurePubxml
-# TODO: Comment the next line if you want to checkin your web deploy settings 
+# TODO: Comment the next line if you want to checkin your web deploy settings
 # but database connection strings (with potential passwords) will be unencrypted
 *.pubxml
 *.publishproj
@@ -444,3 +445,4 @@ samples/features/sql-management-objects/src/out/CodeCoverage/CodeCoverage.config
 
 # Composer
 /vendor/
+samples/databases/adventure-works/oltp-install-script/instawdb.sql
